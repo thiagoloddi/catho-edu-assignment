@@ -31,6 +31,10 @@ npm run build # Run this command with environment variable `NODE_ENV='local'` to
 
 ## Populate DB
 To populate the DB with the sample data run the following command. You can edit the sample data at `scripts/data.sample.json`
+```bash
+npm run populate
+```
+
 
 ## Run
 ```bash
