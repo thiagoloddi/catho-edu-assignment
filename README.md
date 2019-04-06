@@ -11,7 +11,7 @@ cd catho-edu-assignment
 docker-compose up
 ```
 
-When running this command the Docker file will also automatically popoulate the database with the data. To change the sample data edit the file `scripts/data.sample.json`
+When running this command the Docker file will also automatically popoulate the database with the sample data. You can edit the sample data at `scripts/data.sample.json`
 
 Access `localhost:8080` in your browser to start using the application.
 
