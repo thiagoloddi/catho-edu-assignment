@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="MuiPaper-root-1 MuiPaper-elevation2-5 MuiPaper-rounded-2"
+  >
+    <table
+      className="MuiTable-root-28 ProductsList-table-0-1-1"
+    >
+      <thead
+        className="MuiTableHead-root-29"
+      >
+        <tr
+          className="MuiTableRow-root-30 MuiTableRow-head-33"
+        >
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36"
+            scope="col"
+          >
+            ID
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36"
+            scope="col"
+          >
+            NAME
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36 MuiTableCell-alignCenter-44"
+            scope="col"
+          >
+            QUANTITY
+          </th>
+          <th
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-head-36 MuiTableCell-alignCenter-44"
+            scope="col"
+          >
+            FULL PRICE
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="MuiTableBody-root-47"
+      >
+        <tr
+          className="MuiTableRow-root-30 ProductsList-row-0-1-2"
+          id="1"
+          onClick={[Function]}
+        >
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37"
+          >
+            classic
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37"
+          >
+            product
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37 MuiTableCell-alignCenter-44"
+          >
+            <div
+              className="NumberInput-container-0-1-3"
+            >
+              <img
+                className="NumberInput-img-0-1-4"
+                id="minus"
+                onClick={[Function]}
+                src="/assets/minus.svg"
+              />
+              <input
+                className="NumberInput-input-0-1-5"
+                id="1"
+                onBlur={[Function]}
+                onChange={[Function]}
+                value={1}
+              />
+              <img
+                className="NumberInput-img-0-1-4"
+                id="plus"
+                onClick={[Function]}
+                src="/assets/plus.svg"
+              />
+            </div>
+          </td>
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-35 MuiTableCell-body-37 MuiTableCell-alignCenter-44"
+          >
+            $1.00
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

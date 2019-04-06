@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<select
+  className="SelectInput-select-0-1-1 "
+  onChange={[Function]}
+  value="1"
+>
+  <option
+    value="1"
+  >
+    opt 1
+  </option>
+  <option
+    value="2"
+  >
+    opt 2
+  </option>
+</select>
+`;

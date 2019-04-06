@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly hidden 1`] = `
+<div
+  className="Loading-loading-0-1-1 Loading-loading-0-1-4"
+>
+  <img
+    className="Loading-gif-0-1-2"
+    src="/assets/progress.gif"
+  />
+</div>
+`;
+
+exports[`renders correctly showing 1`] = `
+<div
+  className="Loading-loading-0-1-1 Loading-loading-0-1-3"
+>
+  <img
+    className="Loading-gif-0-1-2"
+    src="/assets/progress.gif"
+  />
+</div>
+`;

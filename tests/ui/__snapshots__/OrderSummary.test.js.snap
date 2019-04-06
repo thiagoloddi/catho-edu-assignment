@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="OrderSummary-container-0-1-1"
+>
+  <div
+    className="OrderSummary-priceField-0-1-3"
+  >
+    <div
+      className="OrderSummary-heading-0-1-2"
+    >
+      FINAL PRICE:
+    </div>
+    <div
+      className="OrderSummary-price-0-1-4"
+    >
+      $0.10
+    </div>
+  </div>
+</div>
+`;

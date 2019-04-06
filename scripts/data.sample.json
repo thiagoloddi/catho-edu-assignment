@@ -1,0 +1,39 @@
+{
+  "products": [
+    { "product_id": "classic", "name": "Classic Ad", "price": 26999 },
+    { "product_id": "standout", "name": "Standout Ad", "price": 32299 },
+    { "product_id": "premium", "name": "Premium Ad", "price": 39499 }
+  ],
+  "customers": [
+    {
+      "name": "DEFAULT",
+      "pricing_rules": []
+    },
+    {
+      "name": "UNILEVER",
+      "pricing_rules": [
+        { "product_id": "classic", "type": "VALUE_FREE_AFTER_X", "params": { "x": 3, "value": 1 }}
+      ]
+    },
+    {
+      "name": "APPLE",
+      "pricing_rules": [
+        { "product_id": "standout", "type": "VALUE_AFTER_X", "params": { "x": 0, "value": 29999 }}
+      ]
+    },
+    {
+      "name": "NIKE",
+      "pricing_rules": [
+        { "product_id": "premium", "type": "VALUE_AFTER_X", "params": { "x": 4, "value": 37999 }}
+      ]
+    },
+    {
+      "name": "FORD",
+      "pricing_rules": [
+        { "product_id": "classic", "type": "VALUE_FREE_AFTER_X", "params": { "x": 5, "value": 1 }},
+        { "product_id": "standout", "type": "VALUE_AFTER_X", "params": { "x": 0, "value": 30999 }},
+        { "product_id": "premium", "type": "VALUE_AFTER_X", "params": { "x": 3, "value": 38999 }}
+      ]
+    }
+  ]
+}
